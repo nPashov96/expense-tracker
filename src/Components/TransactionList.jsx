@@ -14,9 +14,7 @@ const TransactionList = () => {
             <Transaction key={transaction.id} transaction={transaction} />
           ))
         ) : (
-          <li className="empty" key={index}>
-            No records
-          </li>
+          <li className="empty">No records</li>
         )}
       </ul>
     </>
